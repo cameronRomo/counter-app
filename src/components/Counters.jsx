@@ -17,7 +17,6 @@ class Counters extends Component {
     counters[index] = {...counter}
     counters[index].value++;
     this.setState({ counters })
-    console.log(this.state.counters[index]);
   }
 
   handleReset = () => {
